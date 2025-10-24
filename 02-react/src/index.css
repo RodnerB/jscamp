@@ -266,9 +266,11 @@ button {
 
 /* Features Section */
 main > section:nth-child(2) {
+  max-width: 1280px;
   padding-inline: 1rem;
   background-color: var(--background);
   padding-top: 2rem;
+  margin: 0 auto;
 
   & > header {
     gap: 2px;
@@ -284,7 +286,7 @@ main > section:nth-child(2) {
   }
 
   & > div {
-    max-width: 1280px;
+    
     margin: 0 auto;
   }
 }
